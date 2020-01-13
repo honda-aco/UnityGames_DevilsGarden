@@ -1,0 +1,15 @@
+# Built application files
+bin/
+obj/
+
+# Log files
+Logs/
+
+# User Keystore
+user.keystore
+
+# Visual Studio setting
+.vs/
+
+# PV files
+Recordings/

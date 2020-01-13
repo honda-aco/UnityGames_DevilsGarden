@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{805F989A-522D-4278-8071-23B86F6C41DA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.6.1f1</UnityVersion>
+    <RootNamespace>
+    </RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_1;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_1;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Script\controller\BgmController.cs" />
+    <Compile Include="Assets\Script\Extensions.cs" />
+    <Compile Include="Assets\Script\stage07\Event07_10_StopAsk.cs" />
+    <Compile Include="Assets\Script\stage07\Event07_11_AskRyotaro.cs" />
+    <Compile Include="Assets\Script\stageEnd01\SkipButton_End01.cs" />
+    <Compile Include="Assets\Script\if\Event_ChangeBgm2.cs" />
+    <Compile Include="Assets\Script\if\Event_DeferredBgm.cs" />
+    <Compile Include="Assets\Script\if\Event_ChangeBgm1.cs" />
+    <Compile Include="Assets\Script\if\Event_MoveScene.cs" />
+    <Compile Include="Assets\Script\if\Event_GameOver.cs" />
+    <Compile Include="Assets\Script\MyMonoBehaviour.cs" />
+    <Compile Include="Assets\Script\controller\CharaTalk.cs" />
+    <Compile Include="Assets\Script\controller\CharaTalkController.cs" />
+    <Compile Include="Assets\Script\controller\EventController.cs" />
+    <Compile Include="Assets\Script\controller\FukidashiController.cs" />
+    <Compile Include="Assets\Script\controller\FukidashiTapCatch.cs" />
+    <Compile Include="Assets\Script\controller\HpController.cs" />
+    <Compile Include="Assets\Script\controller\KeyItemController.cs" />
+    <Compile Include="Assets\Script\controller\SaveController.cs" />
+    <Compile Include="Assets\Script\gameObject\Blood.cs" />
+    <Compile Include="Assets\Script\gameObject\Charactor.cs" />
+    <Compile Include="Assets\Script\gameObject\FollowPlayer.cs" />
+    <Compile Include="Assets\Script\gameObject\Item.cs" />
+    <Compile Include="Assets\Script\gameObject\Player.cs" />
+    <Compile Include="Assets\Script\if\ClickEvent.cs" />
+    <Compile Include="Assets\Script\stage00\PayButton.cs" />
+    <Compile Include="Assets\Script\stage00\CloseButton_Charity.cs" />
+    <Compile Include="Assets\Script\stage00\CloseButton_Gallery.cs" />
+    <Compile Include="Assets\Script\stage00\CloseButton_Credit.cs" />
+    <Compile Include="Assets\Script\stage00\CancelButton.cs" />
+    <Compile Include="Assets\Script\stage00\CreditButton.cs" />
+    <Compile Include="Assets\Script\stage00\ContinueButton.cs" />
+    <Compile Include="Assets\Script\stage00\Event00_01_FirstStart.cs" />
+    <Compile Include="Assets\Script\stage00\Event00_02_Continue.cs" />
+    <Compile Include="Assets\Script\stage00\Event00_04_IndicateTitle.cs" />
+    <Compile Include="Assets\Script\stage00\EventController00.cs" />
+    <Compile Include="Assets\Script\stage00\CharityButton.cs" />
+    <Compile Include="Assets\Script\stage00\GalleryButton.cs" />
+    <Compile Include="Assets\Script\stage00\PlayButton.cs" />
+    <Compile Include="Assets\Script\stage00\LinkButton.cs" />
+    <Compile Include="Assets\Script\stage00\OkButton.cs" />
+    <Compile Include="Assets\Script\stage00\SaveController00.cs" />
+    <Compile Include="Assets\Script\stage00\StartButton.cs" />
+    <Compile Include="Assets\Script\stage01\Event01_01_Prologue.cs" />
+    <Compile Include="Assets\Script\stage01\EventController01.cs" />
+    <Compile Include="Assets\Script\stage02\Charactor02.cs" />
+    <Compile Include="Assets\Script\stage02\Event02_01_Prologue.cs" />
+    <Compile Include="Assets\Script\stage02\Event02_02_EnterFriendHouse.cs" />
+    <Compile Include="Assets\Script\stage02\Event02_03_SmallTalk.cs" />
+    <Compile Include="Assets\Script\stage02\Event02_04_SmallTalk2.cs" />
+    <Compile Include="Assets\Script\stage02\Event02_05_MeetMeiko.cs" />
+    <Compile Include="Assets\Script\stage02\Event02_06_SmallTalk3.cs" />
+    <Compile Include="Assets\Script\stage02\Event02_07_FindEnemies.cs" />
+    <Compile Include="Assets\Script\stage02\Event02_08_FindCorpses.cs" />
+    <Compile Include="Assets\Script\stage02\Event02_09_MoveScene.cs" />
+    <Compile Include="Assets\Script\stage02\Event02_99_GameOver.cs" />
+    <Compile Include="Assets\Script\stage02\EventController02.cs" />
+    <Compile Include="Assets\Script\stage02\Player02.cs" />
+    <Compile Include="Assets\Script\stage02\SaveController02.cs" />
+    <Compile Include="Assets\Script\stage03\Charactor03.cs" />
+    <Compile Include="Assets\Script\stage03\Event03_00_MeetMeiko.cs" />
+    <Compile Include="Assets\Script\stage03\Event03_01_FindHole.cs" />
+    <Compile Include="Assets\Script\stage03\Event03_02_FindHole.cs" />
+    <Compile Include="Assets\Script\stage03\Event03_03_FindHole.cs" />
+    <Compile Include="Assets\Script\stage03\Event03_04_01_FindHole.cs" />
+    <Compile Include="Assets\Script\stage03\Event03_04_02_FindHole.cs" />
+    <Compile Include="Assets\Script\stage03\Event03_04_03_FindHole.cs" />
+    <Compile Include="Assets\Script\stage03\Event03_05_TouchIvyWall.cs" />
+    <Compile Include="Assets\Script\stage03\Event03_06_MeetFather.cs" />
+    <Compile Include="Assets\Script\stage03\Event03_07_FindSchoolBug.cs" />
+    <Compile Include="Assets\Script\stage03\Event03_08_02_MeetAunt.cs" />
+    <Compile Include="Assets\Script\stage03\Event03_08_01_MeetAunt.cs" />
+    <Compile Include="Assets\Script\stage03\Event03_09_MeetDevil.cs" />
+    <Compile Include="Assets\Script\stage03\Event03_10_ChaseStranger.cs" />
+    <Compile Include="Assets\Script\stage03\Event03_10_MeetStranger.cs" />
+    <Compile Include="Assets\Script\stage03\Event03_11_FindGrave.cs" />
+    <Compile Include="Assets\Script\stage03\Event03_12_MoveScene.cs" />
+    <Compile Include="Assets\Script\stage03\Event03_13_MoveScene.cs" />
+    <Compile Include="Assets\Script\stage03\Event03_14_MoveScene.cs" />
+    <Compile Include="Assets\Script\stage03\Event03_99_GameOver.cs" />
+    <Compile Include="Assets\Script\stage03\EventController03.cs" />
+    <Compile Include="Assets\Script\stage03\Player03.cs" />
+    <Compile Include="Assets\Script\stage03\SaveController03.cs" />
+    <Compile Include="Assets\Script\stage04\Charactor04.cs" />
+    <Compile Include="Assets\Script\stage04\Event04_01_FindMud.cs" />
+    <Compile Include="Assets\Script\stage04\Event04_02_FindRabbitHouse.cs" />
+    <Compile Include="Assets\Script\stage04\Event04_03_FindRabbit1.cs" />
+    <Compile Include="Assets\Script\stage04\Event04_04_FindRabbit2.cs" />
+    <Compile Include="Assets\Script\stage04\Event04_05_FindEnemies.cs" />
+    <Compile Include="Assets\Script\stage04\Event04_06_ChangeCamera.cs" />
+    <Compile Include="Assets\Script\stage04\Event04_07_ChangeCamera.cs" />
+    <Compile Include="Assets\Script\stage04\Event04_08_EnterGymnasium.cs" />
+    <Compile Include="Assets\Script\stage04\Event04_09_FindBusstop.cs" />
+    <Compile Include="Assets\Script\stage04\Event04_10_FindBusstop2.cs" />
+    <Compile Include="Assets\Script\stage04\Event04_11_01_EnterCeremony.cs" />
+    <Compile Include="Assets\Script\stage04\Event04_11_02_EnterCeremony.cs" />
+    <Compile Include="Assets\Script\stage04\Event04_12_MoveScene.cs" />
+    <Compile Include="Assets\Script\stage04\Event04_13_MoveScene.cs" />
+    <Compile Include="Assets\Script\stage04\Event04_14_MoveScene.cs" />
+    <Compile Include="Assets\Script\stage04\Event04_15_MoveScene.cs" />
+    <Compile Include="Assets\Script\stage04\Event04_16_MeetTeacher.cs" />
+    <Compile Include="Assets\Script\stage04\Event04_17_FindFrog1.cs" />
+    <Compile Include="Assets\Script\stage04\Event04_18_FindFrog2.cs" />
+    <Compile Include="Assets\Script\stage04\Event04_19_Suicide.cs" />
+    <Compile Include="Assets\Script\stage04\Event04_99_GameOver.cs" />
+    <Compile Include="Assets\Script\stage04\EventController04.cs" />
+    <Compile Include="Assets\Script\stage04\Player04.cs" />
+    <Compile Include="Assets\Script\stage04\SaveController04.cs" />
+    <Compile Include="Assets\Script\stage05\Charactor05.cs" />
+    <Compile Include="Assets\Script\stage05\Enemy05.cs" />
+    <Compile Include="Assets\Script\stage05\Event05_01_MoveScene.cs" />
+    <Compile Include="Assets\Script\stage05\Event05_02_MoveScene.cs" />
+    <Compile Include="Assets\Script\stage05\Event05_03_MoveScene.cs" />
+    <Compile Include="Assets\Script\stage05\Event05_04_TakeEnemy.cs" />
+    <Compile Include="Assets\Script\stage05\Event05_05_SmallTalk.cs" />
+    <Compile Include="Assets\Script\stage05\Event05_06_TalkClassmate.cs" />
+    <Compile Include="Assets\Script\stage05\Event05_07_01_MeetDevil.cs" />
+    <Compile Include="Assets\Script\stage05\Event05_07_02_MeetDevil.cs" />
+    <Compile Include="Assets\Script\stage05\Event05_08_ArriveTrain.cs" />
+    <Compile Include="Assets\Script\stage05\Event05_09_GetOnTrain.cs" />
+    <Compile Include="Assets\Script\stage05\Event05_10_GetOffTrain.cs" />
+    <Compile Include="Assets\Script\stage05\Event05_11_MeetRyotaro.cs" />
+    <Compile Include="Assets\Script\stage05\Event05_12_PlayBaseball.cs" />
+    <Compile Include="Assets\Script\stage05\Event05_99_GameOver.cs" />
+    <Compile Include="Assets\Script\stage05\EventController05.cs" />
+    <Compile Include="Assets\Script\stage05\Player05.cs" />
+    <Compile Include="Assets\Script\stage05\RailroadCrossing05.cs" />
+    <Compile Include="Assets\Script\stage05\SaveController05.cs" />
+    <Compile Include="Assets\Script\stage06\Charactor06.cs" />
+    <Compile Include="Assets\Script\stage06\Event06_01_MoveScene.cs" />
+    <Compile Include="Assets\Script\stage06\Event06_02_MoveScene.cs" />
+    <Compile Include="Assets\Script\stage06\Event06_99_GameOver.cs" />
+    <Compile Include="Assets\Script\stage06\EventController06.cs" />
+    <Compile Include="Assets\Script\stage06\Player06.cs" />
+    <Compile Include="Assets\Script\stage07\Charactor07.cs" />
+    <Compile Include="Assets\Script\stage07\Enemy07.cs" />
+    <Compile Include="Assets\Script\stage07\Event07_01_MoveScene.cs" />
+    <Compile Include="Assets\Script\stage07\Event07_02_FindEnemies.cs" />
+    <Compile Include="Assets\Script\stage07\Event07_03_StopSacrifice.cs" />
+    <Compile Include="Assets\Script\stage07\Event07_04_SacrificeRabbit.cs" />
+    <Compile Include="Assets\Script\stage07\Event07_05_FindSchool.cs" />
+    <Compile Include="Assets\Script\stage07\Event07_06_FindLetter1.cs" />
+    <Compile Include="Assets\Script\stage07\Event07_07_FindLetter2.cs" />
+    <Compile Include="Assets\Script\stage07\Event07_08_MoveMeiko.cs" />
+    <Compile Include="Assets\Script\stage07\Event07_09_MeetDevil.cs" />
+    <Compile Include="Assets\Script\stage07\Event07_99_GameOver.cs" />
+    <Compile Include="Assets\Script\stage07\EventController07.cs" />
+    <Compile Include="Assets\Script\stage07\Player07.cs" />
+    <Compile Include="Assets\Script\stage07\SaveController07.cs" />
+    <Compile Include="Assets\Script\stage08\Charactor08.cs" />
+    <Compile Include="Assets\Script\stage08\Event08_01_MoveWorld.cs" />
+    <Compile Include="Assets\Script\stage08\EventController08.cs" />
+    <Compile Include="Assets\Script\stage08\Player08.cs" />
+    <Compile Include="Assets\Script\stage08\SaveController08.cs" />
+    <Compile Include="Assets\Script\stage09\Charactor09.cs" />
+    <Compile Include="Assets\Script\stage09\Event09_01_Ending.cs" />
+    <Compile Include="Assets\Script\stage09\Event09_02_Ending.cs" />
+    <Compile Include="Assets\Script\stage09\Event09_03_Ending.cs" />
+    <Compile Include="Assets\Script\stage09\EventController09.cs" />
+    <Compile Include="Assets\Script\stage09\Player09.cs" />
+    <Compile Include="Assets\Script\stageEnd01\Charactor_End01.cs" />
+    <Compile Include="Assets\Script\stageEnd01\EventController_End01.cs" />
+    <Compile Include="Assets\Script\stageEnd01\Event_End01_02_Skip.cs" />
+    <Compile Include="Assets\Script\stageEnd01\Event_End01_01_Ending.cs" />
+    <Compile Include="Assets\Script\stageEnd01\Player_End01.cs" />
+    <Compile Include="Assets\Script\stageEnd01\SaveController_End01.cs" />
+    <Compile Include="Assets\Script\stageEnd02\Charactor_End02.cs" />
+    <Compile Include="Assets\Script\stageEnd02\EventController_End02.cs" />
+    <Compile Include="Assets\Script\stageEnd02\Event_End02_02_Skip.cs" />
+    <Compile Include="Assets\Script\stageEnd02\Event_End02_01_Ending.cs" />
+    <Compile Include="Assets\Script\stageEnd02\Player_End02.cs" />
+    <Compile Include="Assets\Script\stageEnd02\SaveController_End02.cs" />
+    <Compile Include="Assets\Script\stageEnd02\SkipButton_End02.cs" />
+    <Compile Include="Assets\Script\stageEnd03\Charactor_End03.cs" />
+    <Compile Include="Assets\Script\stageEnd03\EventController_End03.cs" />
+    <Compile Include="Assets\Script\stageEnd03\Event_End03_02_Skip.cs" />
+    <Compile Include="Assets\Script\stageEnd03\Event_End03_01_Ending.cs" />
+    <Compile Include="Assets\Script\stageEnd03\Player_End03.cs" />
+    <Compile Include="Assets\Script\stageEnd03\SaveController_End03.cs" />
+    <Compile Include="Assets\Script\stageEnd03\SkipButton_End03.cs" />
+    <Compile Include="Assets\Script\stageEnd04\Charactor_End04.cs" />
+    <Compile Include="Assets\Script\stageEnd04\EventController_End04.cs" />
+    <Compile Include="Assets\Script\stageEnd04\Event_End04_02_Skip.cs" />
+    <Compile Include="Assets\Script\stageEnd04\Event_End04_01_Ending.cs" />
+    <Compile Include="Assets\Script\stageEnd04\Player_End04.cs" />
+    <Compile Include="Assets\Script\stageEnd04\SaveController_End04.cs" />
+    <Compile Include="Assets\Script\stageEnd04\SkipButton_End04.cs" />
+    <Compile Include="Assets\Script\stageEnd05\Charactor_End05.cs" />
+    <Compile Include="Assets\Script\stageEnd05\EventController_End05.cs" />
+    <Compile Include="Assets\Script\stageEnd05\Event_End05_02_Skip.cs" />
+    <Compile Include="Assets\Script\stageEnd05\Event_End05_01_Ending.cs" />
+    <Compile Include="Assets\Script\stageEnd05\Player_End05.cs" />
+    <Compile Include="Assets\Script\stageEnd05\SaveController_End05.cs" />
+    <Compile Include="Assets\Script\stageEnd05\SkipButton_End05.cs" />
+    <Compile Include="Assets\Script\stageEnd06\Event_End06_02_Skip.cs" />
+    <Compile Include="Assets\Script\stageEnd06\SkipButton_End06.cs" />
+    <Compile Include="Assets\Script\stageEndroll\Charactor_Endroll.cs" />
+    <Compile Include="Assets\Script\stageEndroll\EventController_Endroll.cs" />
+    <Compile Include="Assets\Script\stageEndroll\Event_Endroll_02_Skip.cs" />
+    <Compile Include="Assets\Script\stageEndroll\Event_Endroll_01_Ending.cs" />
+    <Compile Include="Assets\Script\stageEndroll\Player_Endroll.cs" />
+    <Compile Include="Assets\Script\stageEndroll\SaveController_Endroll.cs" />
+    <Compile Include="Assets\Script\stageEnd06\Charactor_End06.cs" />
+    <Compile Include="Assets\Script\stageEnd06\EventController_End06.cs" />
+    <Compile Include="Assets\Script\stageEnd06\Event_End06_01_Ending.cs" />
+    <Compile Include="Assets\Script\stageEnd06\Player_End06.cs" />
+    <Compile Include="Assets\Script\stageEnd06\SaveController_End06.cs" />
+    <Compile Include="Assets\Script\stageEndroll\SkipButton_Endroll.cs" />
+    <Compile Include="Assets\SimpleParticlePack\Scripts\ParticleTester.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\SkySerie Freebie\Hdri setup.txt" />
+    <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+    <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+    <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+    <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+    <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+    <None Include="Assets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
+    <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
+    <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="DevilsGarden.Plugins.csproj">
+      <Project>{63576ABA-4A40-934C-D330-C7D17E72811A}</Project>
+      <Name>DevilsGarden.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
