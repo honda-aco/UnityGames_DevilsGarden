@@ -1,0 +1,519 @@
+fileFormatVersion: 2
+guid: a8539e40bac1cd64ebe08d841d4df636
+timeCreated: 1551459561
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Yucco_Unity
+    100004: Yucco_Unity_Body
+    100006: Yucco_Unity_Head
+    100008: YuccoUnityBone_Head
+    100010: YuccoUnityBone_Head_end
+    100012: YuccoUnityBone_LeftArm1
+    100014: YuccoUnityBone_LeftArm2
+    100016: YuccoUnityBone_LeftArm3
+    100018: YuccoUnityBone_LeftArm4
+    100020: YuccoUnityBone_LeftArm5
+    100022: YuccoUnityBone_LeftArm5_end
+    100024: YuccoUnityBone_LeftHeel
+    100026: YuccoUnityBone_LeftInstep
+    100028: YuccoUnityBone_LeftInstep_end
+    100030: YuccoUnityBone_LeftLeg1
+    100032: YuccoUnityBone_LeftLeg2
+    100034: YuccoUnityBone_LeftLeg3
+    100036: YuccoUnityBone_RightArm1
+    100038: YuccoUnityBone_RightArm2
+    100040: YuccoUnityBone_RightArm3
+    100042: YuccoUnityBone_RightArm4
+    100044: YuccoUnityBone_RightArm5
+    100046: YuccoUnityBone_RightArm5_end
+    100048: YuccoUnityBone_RightLeg1
+    100050: YuccoUnityBone_RightLeg2
+    100052: YuccoUnityBone_RightLeg3
+    100054: YuccoUnityBone_RightLeg4
+    100056: YuccoUnityBone_RightLeg5
+    100058: YuccoUnityBone_RightLeg5_end
+    100060: YuccoUnityBone_Spine1
+    100062: YuccoUnityBone_Spine2
+    400000: //RootNode
+    400002: Yucco_Unity
+    400004: Yucco_Unity_Body
+    400006: Yucco_Unity_Head
+    400008: YuccoUnityBone_Head
+    400010: YuccoUnityBone_Head_end
+    400012: YuccoUnityBone_LeftArm1
+    400014: YuccoUnityBone_LeftArm2
+    400016: YuccoUnityBone_LeftArm3
+    400018: YuccoUnityBone_LeftArm4
+    400020: YuccoUnityBone_LeftArm5
+    400022: YuccoUnityBone_LeftArm5_end
+    400024: YuccoUnityBone_LeftHeel
+    400026: YuccoUnityBone_LeftInstep
+    400028: YuccoUnityBone_LeftInstep_end
+    400030: YuccoUnityBone_LeftLeg1
+    400032: YuccoUnityBone_LeftLeg2
+    400034: YuccoUnityBone_LeftLeg3
+    400036: YuccoUnityBone_RightArm1
+    400038: YuccoUnityBone_RightArm2
+    400040: YuccoUnityBone_RightArm3
+    400042: YuccoUnityBone_RightArm4
+    400044: YuccoUnityBone_RightArm5
+    400046: YuccoUnityBone_RightArm5_end
+    400048: YuccoUnityBone_RightLeg1
+    400050: YuccoUnityBone_RightLeg2
+    400052: YuccoUnityBone_RightLeg3
+    400054: YuccoUnityBone_RightLeg4
+    400056: YuccoUnityBone_RightLeg5
+    400058: YuccoUnityBone_RightLeg5_end
+    400060: YuccoUnityBone_Spine1
+    400062: YuccoUnityBone_Spine2
+    4300000: Yucco_Unity_Body
+    4300002: Yucco_Unity_Head
+    7400000: YuccoUnityWalk
+    7400002: Yucco_Unity|YuccoUnityPoseLib
+    7400004: Yucco_Unity|YuccoUnityRun
+    7400006: Yucco_Unity|YuccoUnityStand
+    7400008: Yucco_Unity|YuccoUnityWalk
+    9500000: //RootNode
+    13700000: Yucco_Unity_Body
+    13700002: Yucco_Unity_Head
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Yucco_Unity|YuccoUnityPoseLib
+      takeName: Yucco_Unity|YuccoUnityPoseLib
+      firstFrame: 0
+      lastFrame: 13
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Yucco_Unity
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1/YuccoUnityBone_LeftLeg2
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1/YuccoUnityBone_LeftLeg2/YuccoUnityBone_LeftLeg3
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1/YuccoUnityBone_LeftLeg2/YuccoUnityBone_LeftLeg3/YuccoUnityBone_LeftHeel
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1/YuccoUnityBone_LeftLeg2/YuccoUnityBone_LeftLeg3/YuccoUnityBone_LeftHeel/YuccoUnityBone_LeftInstep
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1/YuccoUnityBone_LeftLeg2/YuccoUnityBone_LeftLeg3/YuccoUnityBone_LeftHeel/YuccoUnityBone_LeftInstep/YuccoUnityBone_LeftInstep_end
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1/YuccoUnityBone_RightLeg2
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1/YuccoUnityBone_RightLeg2/YuccoUnityBone_RightLeg3
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1/YuccoUnityBone_RightLeg2/YuccoUnityBone_RightLeg3/YuccoUnityBone_RightLeg4
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1/YuccoUnityBone_RightLeg2/YuccoUnityBone_RightLeg3/YuccoUnityBone_RightLeg4/YuccoUnityBone_RightLeg5
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1/YuccoUnityBone_RightLeg2/YuccoUnityBone_RightLeg3/YuccoUnityBone_RightLeg4/YuccoUnityBone_RightLeg5/YuccoUnityBone_RightLeg5_end
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_Head
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_Head/YuccoUnityBone_Head_end
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1/YuccoUnityBone_LeftArm2
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1/YuccoUnityBone_LeftArm2/YuccoUnityBone_LeftArm3
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1/YuccoUnityBone_LeftArm2/YuccoUnityBone_LeftArm3/YuccoUnityBone_LeftArm4
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1/YuccoUnityBone_LeftArm2/YuccoUnityBone_LeftArm3/YuccoUnityBone_LeftArm4/YuccoUnityBone_LeftArm5
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1/YuccoUnityBone_LeftArm2/YuccoUnityBone_LeftArm3/YuccoUnityBone_LeftArm4/YuccoUnityBone_LeftArm5/YuccoUnityBone_LeftArm5_end
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1/YuccoUnityBone_RightArm2
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1/YuccoUnityBone_RightArm2/YuccoUnityBone_RightArm3
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1/YuccoUnityBone_RightArm2/YuccoUnityBone_RightArm3/YuccoUnityBone_RightArm4
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1/YuccoUnityBone_RightArm2/YuccoUnityBone_RightArm3/YuccoUnityBone_RightArm4/YuccoUnityBone_RightArm5
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1/YuccoUnityBone_RightArm2/YuccoUnityBone_RightArm3/YuccoUnityBone_RightArm4/YuccoUnityBone_RightArm5/YuccoUnityBone_RightArm5_end
+        weight: 1
+      - path: Yucco_Unity_Body
+        weight: 1
+      - path: Yucco_Unity_Head
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Yucco_Unity|YuccoUnityRun
+      takeName: Yucco_Unity|YuccoUnityRun
+      firstFrame: 0
+      lastFrame: 16
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Yucco_Unity
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1/YuccoUnityBone_LeftLeg2
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1/YuccoUnityBone_LeftLeg2/YuccoUnityBone_LeftLeg3
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1/YuccoUnityBone_LeftLeg2/YuccoUnityBone_LeftLeg3/YuccoUnityBone_LeftHeel
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1/YuccoUnityBone_LeftLeg2/YuccoUnityBone_LeftLeg3/YuccoUnityBone_LeftHeel/YuccoUnityBone_LeftInstep
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1/YuccoUnityBone_LeftLeg2/YuccoUnityBone_LeftLeg3/YuccoUnityBone_LeftHeel/YuccoUnityBone_LeftInstep/YuccoUnityBone_LeftInstep_end
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1/YuccoUnityBone_RightLeg2
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1/YuccoUnityBone_RightLeg2/YuccoUnityBone_RightLeg3
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1/YuccoUnityBone_RightLeg2/YuccoUnityBone_RightLeg3/YuccoUnityBone_RightLeg4
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1/YuccoUnityBone_RightLeg2/YuccoUnityBone_RightLeg3/YuccoUnityBone_RightLeg4/YuccoUnityBone_RightLeg5
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1/YuccoUnityBone_RightLeg2/YuccoUnityBone_RightLeg3/YuccoUnityBone_RightLeg4/YuccoUnityBone_RightLeg5/YuccoUnityBone_RightLeg5_end
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_Head
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_Head/YuccoUnityBone_Head_end
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1/YuccoUnityBone_LeftArm2
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1/YuccoUnityBone_LeftArm2/YuccoUnityBone_LeftArm3
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1/YuccoUnityBone_LeftArm2/YuccoUnityBone_LeftArm3/YuccoUnityBone_LeftArm4
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1/YuccoUnityBone_LeftArm2/YuccoUnityBone_LeftArm3/YuccoUnityBone_LeftArm4/YuccoUnityBone_LeftArm5
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1/YuccoUnityBone_LeftArm2/YuccoUnityBone_LeftArm3/YuccoUnityBone_LeftArm4/YuccoUnityBone_LeftArm5/YuccoUnityBone_LeftArm5_end
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1/YuccoUnityBone_RightArm2
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1/YuccoUnityBone_RightArm2/YuccoUnityBone_RightArm3
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1/YuccoUnityBone_RightArm2/YuccoUnityBone_RightArm3/YuccoUnityBone_RightArm4
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1/YuccoUnityBone_RightArm2/YuccoUnityBone_RightArm3/YuccoUnityBone_RightArm4/YuccoUnityBone_RightArm5
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1/YuccoUnityBone_RightArm2/YuccoUnityBone_RightArm3/YuccoUnityBone_RightArm4/YuccoUnityBone_RightArm5/YuccoUnityBone_RightArm5_end
+        weight: 1
+      - path: Yucco_Unity_Body
+        weight: 1
+      - path: Yucco_Unity_Head
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Yucco_Unity|YuccoUnityStand
+      takeName: Yucco_Unity|YuccoUnityStand
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Yucco_Unity
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1/YuccoUnityBone_LeftLeg2
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1/YuccoUnityBone_LeftLeg2/YuccoUnityBone_LeftLeg3
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1/YuccoUnityBone_LeftLeg2/YuccoUnityBone_LeftLeg3/YuccoUnityBone_LeftHeel
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1/YuccoUnityBone_LeftLeg2/YuccoUnityBone_LeftLeg3/YuccoUnityBone_LeftHeel/YuccoUnityBone_LeftInstep
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1/YuccoUnityBone_LeftLeg2/YuccoUnityBone_LeftLeg3/YuccoUnityBone_LeftHeel/YuccoUnityBone_LeftInstep/YuccoUnityBone_LeftInstep_end
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1/YuccoUnityBone_RightLeg2
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1/YuccoUnityBone_RightLeg2/YuccoUnityBone_RightLeg3
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1/YuccoUnityBone_RightLeg2/YuccoUnityBone_RightLeg3/YuccoUnityBone_RightLeg4
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1/YuccoUnityBone_RightLeg2/YuccoUnityBone_RightLeg3/YuccoUnityBone_RightLeg4/YuccoUnityBone_RightLeg5
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1/YuccoUnityBone_RightLeg2/YuccoUnityBone_RightLeg3/YuccoUnityBone_RightLeg4/YuccoUnityBone_RightLeg5/YuccoUnityBone_RightLeg5_end
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_Head
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_Head/YuccoUnityBone_Head_end
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1/YuccoUnityBone_LeftArm2
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1/YuccoUnityBone_LeftArm2/YuccoUnityBone_LeftArm3
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1/YuccoUnityBone_LeftArm2/YuccoUnityBone_LeftArm3/YuccoUnityBone_LeftArm4
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1/YuccoUnityBone_LeftArm2/YuccoUnityBone_LeftArm3/YuccoUnityBone_LeftArm4/YuccoUnityBone_LeftArm5
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1/YuccoUnityBone_LeftArm2/YuccoUnityBone_LeftArm3/YuccoUnityBone_LeftArm4/YuccoUnityBone_LeftArm5/YuccoUnityBone_LeftArm5_end
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1/YuccoUnityBone_RightArm2
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1/YuccoUnityBone_RightArm2/YuccoUnityBone_RightArm3
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1/YuccoUnityBone_RightArm2/YuccoUnityBone_RightArm3/YuccoUnityBone_RightArm4
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1/YuccoUnityBone_RightArm2/YuccoUnityBone_RightArm3/YuccoUnityBone_RightArm4/YuccoUnityBone_RightArm5
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1/YuccoUnityBone_RightArm2/YuccoUnityBone_RightArm3/YuccoUnityBone_RightArm4/YuccoUnityBone_RightArm5/YuccoUnityBone_RightArm5_end
+        weight: 1
+      - path: Yucco_Unity_Body
+        weight: 1
+      - path: Yucco_Unity_Head
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Yucco_Unity|YuccoUnityWalk
+      takeName: Yucco_Unity|YuccoUnityWalk
+      firstFrame: 0
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Yucco_Unity
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1/YuccoUnityBone_LeftLeg2
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1/YuccoUnityBone_LeftLeg2/YuccoUnityBone_LeftLeg3
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1/YuccoUnityBone_LeftLeg2/YuccoUnityBone_LeftLeg3/YuccoUnityBone_LeftHeel
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1/YuccoUnityBone_LeftLeg2/YuccoUnityBone_LeftLeg3/YuccoUnityBone_LeftHeel/YuccoUnityBone_LeftInstep
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_LeftLeg1/YuccoUnityBone_LeftLeg2/YuccoUnityBone_LeftLeg3/YuccoUnityBone_LeftHeel/YuccoUnityBone_LeftInstep/YuccoUnityBone_LeftInstep_end
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1/YuccoUnityBone_RightLeg2
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1/YuccoUnityBone_RightLeg2/YuccoUnityBone_RightLeg3
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1/YuccoUnityBone_RightLeg2/YuccoUnityBone_RightLeg3/YuccoUnityBone_RightLeg4
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1/YuccoUnityBone_RightLeg2/YuccoUnityBone_RightLeg3/YuccoUnityBone_RightLeg4/YuccoUnityBone_RightLeg5
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_RightLeg1/YuccoUnityBone_RightLeg2/YuccoUnityBone_RightLeg3/YuccoUnityBone_RightLeg4/YuccoUnityBone_RightLeg5/YuccoUnityBone_RightLeg5_end
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_Head
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_Head/YuccoUnityBone_Head_end
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1/YuccoUnityBone_LeftArm2
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1/YuccoUnityBone_LeftArm2/YuccoUnityBone_LeftArm3
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1/YuccoUnityBone_LeftArm2/YuccoUnityBone_LeftArm3/YuccoUnityBone_LeftArm4
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1/YuccoUnityBone_LeftArm2/YuccoUnityBone_LeftArm3/YuccoUnityBone_LeftArm4/YuccoUnityBone_LeftArm5
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_LeftArm1/YuccoUnityBone_LeftArm2/YuccoUnityBone_LeftArm3/YuccoUnityBone_LeftArm4/YuccoUnityBone_LeftArm5/YuccoUnityBone_LeftArm5_end
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1/YuccoUnityBone_RightArm2
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1/YuccoUnityBone_RightArm2/YuccoUnityBone_RightArm3
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1/YuccoUnityBone_RightArm2/YuccoUnityBone_RightArm3/YuccoUnityBone_RightArm4
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1/YuccoUnityBone_RightArm2/YuccoUnityBone_RightArm3/YuccoUnityBone_RightArm4/YuccoUnityBone_RightArm5
+        weight: 1
+      - path: Yucco_Unity/YuccoUnityBone_Spine1/YuccoUnityBone_Spine2/YuccoUnityBone_RightArm1/YuccoUnityBone_RightArm2/YuccoUnityBone_RightArm3/YuccoUnityBone_RightArm4/YuccoUnityBone_RightArm5/YuccoUnityBone_RightArm5_end
+        weight: 1
+      - path: Yucco_Unity_Body
+        weight: 1
+      - path: Yucco_Unity_Head
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,345 @@
+fileFormatVersion: 2
+guid: 55895eb755551044495866b6bbf5b5f3
+timeCreated: 1530018900
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: //RootNode
+    100004: rabbit1
+    100006: RabbitBone_Ear1
+    100008: RabbitBone_Head1
+    100010: RabbitBone_Head1_end
+    100012: RabbitBone_LeftArm1
+    100014: RabbitBone_LeftArm2
+    100016: RabbitBone_LeftArm3
+    100018: RabbitBone_LeftArm4
+    100020: RabbitBone_LeftArm4_end
+    100022: RabbitBone_LeftEar1
+    100024: RabbitBone_LeftEar1_end
+    100026: RabbitBone_LeftReg1
+    100028: RabbitBone_LeftReg2
+    100030: RabbitBone_LeftReg3
+    100032: RabbitBone_LeftReg3_end
+    100034: RabbitBone_RightArm1
+    100036: RabbitBone_RightArm2
+    100038: RabbitBone_RightArm3
+    100040: RabbitBone_RightArm4
+    100042: RabbitBone_RightArm4_end
+    100044: RabbitBone_RightEar1
+    100046: RabbitBone_RightEar1_end
+    100048: RabbitBone_RightReg1
+    100050: RabbitBone_RightReg2
+    100052: RabbitBone_RightReg3
+    100054: RabbitBone_RightReg3_end
+    100056: RabbitBone_Spine1
+    100058: RabbitBone_Spine2
+    100060: RabbitBone_Spine3
+    100062: RabbitBone_Tail1
+    100064: RabbitBone_Tail2
+    100066: RabbitBone_Tail2_end
+    400000: Armature
+    400002: //RootNode
+    400004: rabbit1
+    400006: RabbitBone_Ear1
+    400008: RabbitBone_Head1
+    400010: RabbitBone_Head1_end
+    400012: RabbitBone_LeftArm1
+    400014: RabbitBone_LeftArm2
+    400016: RabbitBone_LeftArm3
+    400018: RabbitBone_LeftArm4
+    400020: RabbitBone_LeftArm4_end
+    400022: RabbitBone_LeftEar1
+    400024: RabbitBone_LeftEar1_end
+    400026: RabbitBone_LeftReg1
+    400028: RabbitBone_LeftReg2
+    400030: RabbitBone_LeftReg3
+    400032: RabbitBone_LeftReg3_end
+    400034: RabbitBone_RightArm1
+    400036: RabbitBone_RightArm2
+    400038: RabbitBone_RightArm3
+    400040: RabbitBone_RightArm4
+    400042: RabbitBone_RightArm4_end
+    400044: RabbitBone_RightEar1
+    400046: RabbitBone_RightEar1_end
+    400048: RabbitBone_RightReg1
+    400050: RabbitBone_RightReg2
+    400052: RabbitBone_RightReg3
+    400054: RabbitBone_RightReg3_end
+    400056: RabbitBone_Spine1
+    400058: RabbitBone_Spine2
+    400060: RabbitBone_Spine3
+    400062: RabbitBone_Tail1
+    400064: RabbitBone_Tail2
+    400066: RabbitBone_Tail2_end
+    4300000: rabbit1
+    7400000: Armature|RabbitPoseLib
+    7400002: Armature|RabbitStand
+    7400004: Rabbit|RabbitWalk
+    7400006: Rabbit|RabbitPoseLib
+    7400008: Rabbit|RabbitStand
+    9500000: //RootNode
+    13700000: rabbit1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Rabbit|RabbitWalk
+      takeName: Armature|RabbitWalk
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/RabbitBone_Tail1
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_LeftReg1
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_LeftReg1/RabbitBone_LeftReg2
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_LeftReg1/RabbitBone_LeftReg2/RabbitBone_LeftReg3
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_LeftReg1/RabbitBone_LeftReg2/RabbitBone_LeftReg3/RabbitBone_LeftReg3_end
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_RightReg1
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_RightReg1/RabbitBone_RightReg2
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_RightReg1/RabbitBone_RightReg2/RabbitBone_RightReg3
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_RightReg1/RabbitBone_RightReg2/RabbitBone_RightReg3/RabbitBone_RightReg3_end
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_LeftArm1
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_LeftArm1/RabbitBone_LeftArm2
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_LeftArm1/RabbitBone_LeftArm2/RabbitBone_LeftArm3
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_LeftArm1/RabbitBone_LeftArm2/RabbitBone_LeftArm3/RabbitBone_LeftArm4
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_LeftArm1/RabbitBone_LeftArm2/RabbitBone_LeftArm3/RabbitBone_LeftArm4/RabbitBone_LeftArm4_end
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_RightArm1
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_RightArm1/RabbitBone_RightArm2
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_RightArm1/RabbitBone_RightArm2/RabbitBone_RightArm3
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_RightArm1/RabbitBone_RightArm2/RabbitBone_RightArm3/RabbitBone_RightArm4
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_RightArm1/RabbitBone_RightArm2/RabbitBone_RightArm3/RabbitBone_RightArm4/RabbitBone_RightArm4_end
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Ear1
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Ear1/RabbitBone_LeftEar1
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Ear1/RabbitBone_LeftEar1/RabbitBone_LeftEar1_end
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Ear1/RabbitBone_RightEar1
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Ear1/RabbitBone_RightEar1/RabbitBone_RightEar1_end
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Head1
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Head1/RabbitBone_Head1_end
+        weight: 1
+      - path: Armature/RabbitBone_Tail2
+        weight: 1
+      - path: Armature/RabbitBone_Tail2/RabbitBone_Tail2_end
+        weight: 1
+      - path: rabbit1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rabbit|RabbitStand
+      takeName: Armature|RabbitStand
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/RabbitBone_Tail1
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_LeftReg1
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_LeftReg1/RabbitBone_LeftReg2
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_LeftReg1/RabbitBone_LeftReg2/RabbitBone_LeftReg3
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_LeftReg1/RabbitBone_LeftReg2/RabbitBone_LeftReg3/RabbitBone_LeftReg3_end
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_RightReg1
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_RightReg1/RabbitBone_RightReg2
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_RightReg1/RabbitBone_RightReg2/RabbitBone_RightReg3
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_RightReg1/RabbitBone_RightReg2/RabbitBone_RightReg3/RabbitBone_RightReg3_end
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_LeftArm1
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_LeftArm1/RabbitBone_LeftArm2
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_LeftArm1/RabbitBone_LeftArm2/RabbitBone_LeftArm3
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_LeftArm1/RabbitBone_LeftArm2/RabbitBone_LeftArm3/RabbitBone_LeftArm4
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_LeftArm1/RabbitBone_LeftArm2/RabbitBone_LeftArm3/RabbitBone_LeftArm4/RabbitBone_LeftArm4_end
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_RightArm1
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_RightArm1/RabbitBone_RightArm2
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_RightArm1/RabbitBone_RightArm2/RabbitBone_RightArm3
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_RightArm1/RabbitBone_RightArm2/RabbitBone_RightArm3/RabbitBone_RightArm4
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_RightArm1/RabbitBone_RightArm2/RabbitBone_RightArm3/RabbitBone_RightArm4/RabbitBone_RightArm4_end
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Ear1
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Ear1/RabbitBone_LeftEar1
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Ear1/RabbitBone_LeftEar1/RabbitBone_LeftEar1_end
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Ear1/RabbitBone_RightEar1
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Ear1/RabbitBone_RightEar1/RabbitBone_RightEar1_end
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Head1
+        weight: 1
+      - path: Armature/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Head1/RabbitBone_Head1_end
+        weight: 1
+      - path: Armature/RabbitBone_Tail2
+        weight: 1
+      - path: Armature/RabbitBone_Tail2/RabbitBone_Tail2_end
+        weight: 1
+      - path: rabbit1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: b3d9b5eadafd1ad46af77cc3050de69d
+timeCreated: 1531922784
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - KeyItem1: {instanceID: 0}
+  - KeyItem2: {instanceID: 0}
+  - KeyItem3: {instanceID: 0}
+  - KeyItem1_Level_25: {fileID: 2800000, guid: 879dd3eb27aa11c409a2cb7c87f0a2df, type: 3}
+  - KeyItem1_Level_50: {fileID: 2800000, guid: 7ed407a3e40e84948a4457f1a30349da, type: 3}
+  - KeyItem1_Level_75: {fileID: 2800000, guid: 309971ffff2c67a47b3d3cb374805bf1, type: 3}
+  - KeyItem1_Level_100: {fileID: 2800000, guid: 59e85ff030bf7fd43bb736d05e83e780,
+      type: 3}
+  - KeyItem2_Level_25: {fileID: 2800000, guid: f14d5e542ac02a248bc8b83f649c696a, type: 3}
+  - KeyItem2_Level_50: {fileID: 2800000, guid: ff9b00655a69588478e9f700e1e674e8, type: 3}
+  - KeyItem2_Level_75: {fileID: 2800000, guid: 42e29783a84d65248929838efb2b62d4, type: 3}
+  - KeyItem2_Level_100: {fileID: 2800000, guid: f8ba7ae5a8c9f32499a6c754c6ac9628,
+      type: 3}
+  - KeyItem3_Level_25: {fileID: 2800000, guid: ca7ceef7973188749b1088ef72360abf, type: 3}
+  - KeyItem3_Level_50: {fileID: 2800000, guid: 29166fed2b87d444fa126c6300230b72, type: 3}
+  - KeyItem3_Level_75: {fileID: 2800000, guid: 65700f0fd83888a40b2ce7ff1f937952, type: 3}
+  - KeyItem3_Level_100: {fileID: 2800000, guid: 2f194fa4e3a114b4389507869ea550d2,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

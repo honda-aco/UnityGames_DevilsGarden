@@ -1,0 +1,414 @@
+fileFormatVersion: 2
+guid: 28a68c45c8907004da874066919f0e6f
+timeCreated: 1564753513
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Enemy3
+    100002: //RootNode
+    100004: Enemy3_Unity
+    100006: RabbitBone_Ear1
+    100008: RabbitBone_Head1
+    100010: RabbitBone_Head1_end
+    100012: RabbitBone_LeftArm1
+    100014: RabbitBone_LeftArm2
+    100016: RabbitBone_LeftArm3
+    100018: RabbitBone_LeftArm4
+    100020: RabbitBone_LeftArm4.002
+    100022: RabbitBone_LeftArm4.002_end
+    100024: RabbitBone_LeftEar1
+    100026: RabbitBone_LeftEar1_end
+    100028: RabbitBone_LeftReg1
+    100030: RabbitBone_LeftReg2
+    100032: RabbitBone_LeftReg3
+    100034: RabbitBone_LeftReg3.001
+    100036: RabbitBone_LeftReg3.002
+    100038: RabbitBone_LeftReg3.003
+    100040: RabbitBone_LeftReg3.003_end
+    100042: RabbitBone_RightArm1
+    100044: RabbitBone_RightArm2
+    100046: RabbitBone_RightArm3
+    100048: RabbitBone_RightArm4
+    100050: RabbitBone_RightArm4.002
+    100052: RabbitBone_RightArm4.002_end
+    100054: RabbitBone_RightEar1
+    100056: RabbitBone_RightEar1_end
+    100058: RabbitBone_RightReg1
+    100060: RabbitBone_RightReg2
+    100062: RabbitBone_RightReg3
+    100064: RabbitBone_RightReg3.001
+    100066: RabbitBone_RightReg3.002
+    100068: RabbitBone_RightReg3.003
+    100070: RabbitBone_RightReg3.003_end
+    100072: RabbitBone_Spine1
+    100074: RabbitBone_Spine2
+    100076: RabbitBone_Spine3
+    100078: RabbitBone_Tail1
+    100080: RabbitBone_Tail2
+    100082: RabbitBone_Tail2.001
+    100084: RabbitBone_Tail2.002
+    100086: RabbitBone_Tail2.003
+    100088: RabbitBone_Tail2.003_end
+    400000: Enemy3
+    400002: //RootNode
+    400004: Enemy3_Unity
+    400006: RabbitBone_Ear1
+    400008: RabbitBone_Head1
+    400010: RabbitBone_Head1_end
+    400012: RabbitBone_LeftArm1
+    400014: RabbitBone_LeftArm2
+    400016: RabbitBone_LeftArm3
+    400018: RabbitBone_LeftArm4
+    400020: RabbitBone_LeftArm4.002
+    400022: RabbitBone_LeftArm4.002_end
+    400024: RabbitBone_LeftEar1
+    400026: RabbitBone_LeftEar1_end
+    400028: RabbitBone_LeftReg1
+    400030: RabbitBone_LeftReg2
+    400032: RabbitBone_LeftReg3
+    400034: RabbitBone_LeftReg3.001
+    400036: RabbitBone_LeftReg3.002
+    400038: RabbitBone_LeftReg3.003
+    400040: RabbitBone_LeftReg3.003_end
+    400042: RabbitBone_RightArm1
+    400044: RabbitBone_RightArm2
+    400046: RabbitBone_RightArm3
+    400048: RabbitBone_RightArm4
+    400050: RabbitBone_RightArm4.002
+    400052: RabbitBone_RightArm4.002_end
+    400054: RabbitBone_RightEar1
+    400056: RabbitBone_RightEar1_end
+    400058: RabbitBone_RightReg1
+    400060: RabbitBone_RightReg2
+    400062: RabbitBone_RightReg3
+    400064: RabbitBone_RightReg3.001
+    400066: RabbitBone_RightReg3.002
+    400068: RabbitBone_RightReg3.003
+    400070: RabbitBone_RightReg3.003_end
+    400072: RabbitBone_Spine1
+    400074: RabbitBone_Spine2
+    400076: RabbitBone_Spine3
+    400078: RabbitBone_Tail1
+    400080: RabbitBone_Tail2
+    400082: RabbitBone_Tail2.001
+    400084: RabbitBone_Tail2.002
+    400086: RabbitBone_Tail2.003
+    400088: RabbitBone_Tail2.003_end
+    4300000: Enemy3
+    7400000: Enemy3_Unity|Enemy3PoseLib
+    7400002: Enemy3_Unity|Enemy3Stand
+    7400004: Enemy3_Unity|Enemy3Walk
+    7400006: Enemy3_Unity|RabbitPoseLib
+    7400008: Enemy3_Unity|RabbitStand
+    7400010: Enemy3_Unity|RabbitStand.001
+    7400012: Enemy3_Unity|RabbitWalk
+    7400014: Enemy3_Unity|RabbitWalk.001
+    9500000: //RootNode
+    13700000: Enemy3
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Enemy3_Unity|Enemy3Stand
+      takeName: Enemy3_Unity|Enemy3Stand
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Enemy3
+        weight: 1
+      - path: Enemy3_Unity
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_LeftReg1
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_LeftReg1/RabbitBone_LeftReg2
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_LeftReg1/RabbitBone_LeftReg2/RabbitBone_LeftReg3
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_LeftReg1/RabbitBone_LeftReg2/RabbitBone_LeftReg3/RabbitBone_LeftReg3.001
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_LeftReg1/RabbitBone_LeftReg2/RabbitBone_LeftReg3/RabbitBone_LeftReg3.001/RabbitBone_LeftReg3.002
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_LeftReg1/RabbitBone_LeftReg2/RabbitBone_LeftReg3/RabbitBone_LeftReg3.001/RabbitBone_LeftReg3.002/RabbitBone_LeftReg3.003
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_LeftReg1/RabbitBone_LeftReg2/RabbitBone_LeftReg3/RabbitBone_LeftReg3.001/RabbitBone_LeftReg3.002/RabbitBone_LeftReg3.003/RabbitBone_LeftReg3.003_end
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_RightReg1
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_RightReg1/RabbitBone_RightReg2
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_RightReg1/RabbitBone_RightReg2/RabbitBone_RightReg3
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_RightReg1/RabbitBone_RightReg2/RabbitBone_RightReg3/RabbitBone_RightReg3.001
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_RightReg1/RabbitBone_RightReg2/RabbitBone_RightReg3/RabbitBone_RightReg3.001/RabbitBone_RightReg3.002
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_RightReg1/RabbitBone_RightReg2/RabbitBone_RightReg3/RabbitBone_RightReg3.001/RabbitBone_RightReg3.002/RabbitBone_RightReg3.003
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_RightReg1/RabbitBone_RightReg2/RabbitBone_RightReg3/RabbitBone_RightReg3.001/RabbitBone_RightReg3.002/RabbitBone_RightReg3.003/RabbitBone_RightReg3.003_end
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_LeftArm1
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_LeftArm1/RabbitBone_LeftArm2
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_LeftArm1/RabbitBone_LeftArm2/RabbitBone_LeftArm3
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_LeftArm1/RabbitBone_LeftArm2/RabbitBone_LeftArm3/RabbitBone_LeftArm4
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_LeftArm1/RabbitBone_LeftArm2/RabbitBone_LeftArm3/RabbitBone_LeftArm4/RabbitBone_LeftArm4.002
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_LeftArm1/RabbitBone_LeftArm2/RabbitBone_LeftArm3/RabbitBone_LeftArm4/RabbitBone_LeftArm4.002/RabbitBone_LeftArm4.002_end
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_RightArm1
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_RightArm1/RabbitBone_RightArm2
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_RightArm1/RabbitBone_RightArm2/RabbitBone_RightArm3
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_RightArm1/RabbitBone_RightArm2/RabbitBone_RightArm3/RabbitBone_RightArm4
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_RightArm1/RabbitBone_RightArm2/RabbitBone_RightArm3/RabbitBone_RightArm4/RabbitBone_RightArm4.002
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_RightArm1/RabbitBone_RightArm2/RabbitBone_RightArm3/RabbitBone_RightArm4/RabbitBone_RightArm4.002/RabbitBone_RightArm4.002_end
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Ear1
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Ear1/RabbitBone_LeftEar1
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Ear1/RabbitBone_LeftEar1/RabbitBone_LeftEar1_end
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Ear1/RabbitBone_RightEar1
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Ear1/RabbitBone_RightEar1/RabbitBone_RightEar1_end
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Head1
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Head1/RabbitBone_Head1_end
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail2
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail2/RabbitBone_Tail2.001
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail2/RabbitBone_Tail2.001/RabbitBone_Tail2.002
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail2/RabbitBone_Tail2.001/RabbitBone_Tail2.002/RabbitBone_Tail2.003
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail2/RabbitBone_Tail2.001/RabbitBone_Tail2.002/RabbitBone_Tail2.003/RabbitBone_Tail2.003_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Enemy3_Unity|Enemy3Walk
+      takeName: Enemy3_Unity|Enemy3Walk
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Enemy3
+        weight: 1
+      - path: Enemy3_Unity
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_LeftReg1
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_LeftReg1/RabbitBone_LeftReg2
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_LeftReg1/RabbitBone_LeftReg2/RabbitBone_LeftReg3
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_LeftReg1/RabbitBone_LeftReg2/RabbitBone_LeftReg3/RabbitBone_LeftReg3.001
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_LeftReg1/RabbitBone_LeftReg2/RabbitBone_LeftReg3/RabbitBone_LeftReg3.001/RabbitBone_LeftReg3.002
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_LeftReg1/RabbitBone_LeftReg2/RabbitBone_LeftReg3/RabbitBone_LeftReg3.001/RabbitBone_LeftReg3.002/RabbitBone_LeftReg3.003
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_LeftReg1/RabbitBone_LeftReg2/RabbitBone_LeftReg3/RabbitBone_LeftReg3.001/RabbitBone_LeftReg3.002/RabbitBone_LeftReg3.003/RabbitBone_LeftReg3.003_end
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_RightReg1
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_RightReg1/RabbitBone_RightReg2
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_RightReg1/RabbitBone_RightReg2/RabbitBone_RightReg3
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_RightReg1/RabbitBone_RightReg2/RabbitBone_RightReg3/RabbitBone_RightReg3.001
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_RightReg1/RabbitBone_RightReg2/RabbitBone_RightReg3/RabbitBone_RightReg3.001/RabbitBone_RightReg3.002
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_RightReg1/RabbitBone_RightReg2/RabbitBone_RightReg3/RabbitBone_RightReg3.001/RabbitBone_RightReg3.002/RabbitBone_RightReg3.003
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_RightReg1/RabbitBone_RightReg2/RabbitBone_RightReg3/RabbitBone_RightReg3.001/RabbitBone_RightReg3.002/RabbitBone_RightReg3.003/RabbitBone_RightReg3.003_end
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_LeftArm1
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_LeftArm1/RabbitBone_LeftArm2
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_LeftArm1/RabbitBone_LeftArm2/RabbitBone_LeftArm3
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_LeftArm1/RabbitBone_LeftArm2/RabbitBone_LeftArm3/RabbitBone_LeftArm4
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_LeftArm1/RabbitBone_LeftArm2/RabbitBone_LeftArm3/RabbitBone_LeftArm4/RabbitBone_LeftArm4.002
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_LeftArm1/RabbitBone_LeftArm2/RabbitBone_LeftArm3/RabbitBone_LeftArm4/RabbitBone_LeftArm4.002/RabbitBone_LeftArm4.002_end
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_RightArm1
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_RightArm1/RabbitBone_RightArm2
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_RightArm1/RabbitBone_RightArm2/RabbitBone_RightArm3
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_RightArm1/RabbitBone_RightArm2/RabbitBone_RightArm3/RabbitBone_RightArm4
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_RightArm1/RabbitBone_RightArm2/RabbitBone_RightArm3/RabbitBone_RightArm4/RabbitBone_RightArm4.002
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_RightArm1/RabbitBone_RightArm2/RabbitBone_RightArm3/RabbitBone_RightArm4/RabbitBone_RightArm4.002/RabbitBone_RightArm4.002_end
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Ear1
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Ear1/RabbitBone_LeftEar1
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Ear1/RabbitBone_LeftEar1/RabbitBone_LeftEar1_end
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Ear1/RabbitBone_RightEar1
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Ear1/RabbitBone_RightEar1/RabbitBone_RightEar1_end
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Head1
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail1/RabbitBone_Spine1/RabbitBone_Spine2/RabbitBone_Spine3/RabbitBone_Head1/RabbitBone_Head1_end
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail2
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail2/RabbitBone_Tail2.001
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail2/RabbitBone_Tail2.001/RabbitBone_Tail2.002
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail2/RabbitBone_Tail2.001/RabbitBone_Tail2.002/RabbitBone_Tail2.003
+        weight: 1
+      - path: Enemy3_Unity/RabbitBone_Tail2/RabbitBone_Tail2.001/RabbitBone_Tail2.002/RabbitBone_Tail2.003/RabbitBone_Tail2.003_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
