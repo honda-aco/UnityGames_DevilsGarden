@@ -133,6 +133,8 @@ namespace Assets.Script
             // イベント完了を保存
             SaveController05 saveController05 = new SaveController05();
             saveController05.complete_Event05_11_MeetRyotaro();
+            saveController05.save_KeyItem1Status(SaveController.KeyItemStatus.Level_50);
+            eventController05.Update_KeyItem1();
 
             eventController05.MainCamera.gameObject.SetActive(true);
             eventController05.EventCamera4.gameObject.SetActive(false);
