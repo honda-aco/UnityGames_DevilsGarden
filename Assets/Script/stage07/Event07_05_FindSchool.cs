@@ -58,7 +58,6 @@ namespace Assets.Script
 
             eventController07.MainCamera.gameObject.SetActive(true);
             eventController07.EventCamera2.gameObject.SetActive(false);
-            eventController07.HideField.SetActive(true);
             eventController07.EventPanel6.SetActive(true);
             eventController07.EventPanel7.SetActive(true);
             return true;
